@@ -3,6 +3,8 @@ CREATE DATABASE wrestlers_dev;
 
 \c wrestlers_dev;
 
+DROP TABLE IF EXISTS wrestlers;
+
 CREATE TABLE wrestlers (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL,
