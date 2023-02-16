@@ -12,4 +12,7 @@ VALUES ('Orange Cassidy', '05-04-1984', '03-13-2004', 'male', 178, 73, 'Wherever
 INSERT INTO comments (commenter, content, rating, wrestler_id) 
 VALUES ('Melanie', 'I love Orange Cassidy! He is my favorite wrestler!', 10, '1'),
 ('El', 'Kris Statlander should be the champion of the womens division before the end of the year.', 9.5, '2'),
-('Hannah', 'Willow Nightingale is a ray of sunshine!', 9, '3')
+('Hannah', 'Willow Nightingale is a ray of sunshine!', 9, '3'),
+('Angel', 'Wrestling just is not the same without Naomi. I hope she comes back soon!', 10, '6'),
+('Kate', 'Wild how Konosuke Takeshita has already been wrestling for 10 years and is only 27 years old. Legend in the making.', 10, '5'),
+('AJ', 'Wheeler Yuta is a really cool dude!', 8, '4');
