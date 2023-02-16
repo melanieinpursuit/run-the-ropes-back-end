@@ -3,6 +3,7 @@ CREATE DATABASE wrestlers_dev;
 
 \c wrestlers_dev;
 
+DROP TABLE IF EXISTS comments;
 DROP TABLE IF EXISTS wrestlers;
 
 CREATE TABLE wrestlers (
@@ -20,7 +21,6 @@ CREATE TABLE wrestlers (
     image TEXT
 );
 
-DROP TABLE IF EXISTS comments;
 
 CREATE TABLE comments (
     id SERIAL PRIMARY KEY,
